@@ -15,12 +15,9 @@
         }
 
         #video-grid {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            margin: 5px;
-            padding: 5px;
+            display: grid;
+            grid-template-columns: repeat(object-fit, 360px);
+            grid-template-rows: 300px;
         }
 
         video {
